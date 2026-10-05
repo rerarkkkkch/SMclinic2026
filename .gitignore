@@ -1,0 +1,22 @@
+__pycache__/
+data/cm_route.db
+data/db/
+data/inbox/*
+!data/inbox/.gitkeep
+reports/
+.env
+# реальные протоколы — не коммитить (152-ФЗ)
+data/real/
+# локальное окружение и кэш
+.venv/
+venv/
+.pytest_cache/
+*.pyc
+*.db
+*.db-shm
+*.db-wal
+.DS_Store
+Thumbs.db
+# протоколы из интернета и модель, обученная на выданных данных, — только локально
+data/web/
+models/*.joblib
